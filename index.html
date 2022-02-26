@@ -5,6 +5,8 @@
     <title>Mayank Khurmai</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/ico.css">
+
 </head>
 
 <body>
@@ -13,30 +15,23 @@
         <div id="header-div">
             <h3>Lumiq - DOM Manipulation</h3>
         </div>
-
         
-        <div id="display-div">
-            <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'div-a')" id="defaultOpen">Row Add/Delete</button>
-                <button class="tablinks" onclick="openTab(event, 'div-b')">Script Add/Delete</button>
-                <button class="tablinks" onclick="openTab(event, 'div-c')">Element Add/Delete</button>
-                <button class="tablinks" onclick="openTab(event, 'div-d')">CSS Change</button>
-            </div>
-            
-            <div id="div-a" class="tabcontent">
-                <h3>A</h3>
-            </div>
-            
-            <div id="div-b" class="tabcontent">
-                <h3>B</h3>  
-            </div>
-            
-            <div id="div-c" class="tabcontent">
-                <h3>C</h3>
-            </div>
-            
-            <div id="div-d" class="tabcontent">
-                <h3>D</h3>
+        <div id="display-div"> 
+            <table cellspacing="0px" cellpadding="1px" id="mt">
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>User Name</th>
+                    <th>Random ID</th>
+                    <th>Delete</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="settings-div">
+            <div>
+                <div class='icons8-reset settings-icons' id='reset'></div>
+                <div class='icons8-css settings-icons' id='change-css' value="0"></div>
+                <div class="settings-icons"><img src="./images/add-icon.png" id="add-row"></div>
             </div>
         </div>
         
