@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Mayank Khurmai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div id="outer-div">
+
+        <div id="header-div">
+            <h3>Lumiq - DOM Manipulation</h3>
+        </div>
+
+        
+        <div id="display-div">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'div-a')" id="defaultOpen">Row Add/Delete</button>
+                <button class="tablinks" onclick="openTab(event, 'div-b')">Script Add/Delete</button>
+                <button class="tablinks" onclick="openTab(event, 'div-c')">Element Add/Delete</button>
+                <button class="tablinks" onclick="openTab(event, 'div-d')">CSS Change</button>
+            </div>
+            
+            <div id="div-a" class="tabcontent">
+                <h3>A</h3>
+            </div>
+            
+            <div id="div-b" class="tabcontent">
+                <h3>B</h3>  
+            </div>
+            
+            <div id="div-c" class="tabcontent">
+                <h3>C</h3>
+            </div>
+            
+            <div id="div-d" class="tabcontent">
+                <h3>D</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
