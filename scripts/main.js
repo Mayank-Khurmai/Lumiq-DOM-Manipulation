@@ -42,3 +42,21 @@ document.getElementById("change-css").addEventListener('click', ()=>{
 document.getElementById("reset").addEventListener('click', ()=>{
   location.reload();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
